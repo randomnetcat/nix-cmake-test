@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 project(test_a VERSION 1.0 LANGUAGES CXX)
 
-add_library(test_a src/foo.cpp)
+add_library(test_a SHARED src/foo.cpp)
 
 include(GNUInstallDirs)
 
